@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="repository.xxhelperxx" name="xXHelperXx Repository" version="1.0" provider-name="Free World">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="xXHelperXx Repository">
+            <info compressed="false">https://raw.githubusercontent.com/xXHelperXx/_Repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/xXHelperXx/_Repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/xXHelperXx/_Repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Welcome!</summary>
+            <description></description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
